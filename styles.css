@@ -16,6 +16,10 @@ a {
     color: inherit;
 }
 
+.employment p, .experience-item p, .key p {
+    margin: 5px 0;
+}
+
 .page {
     width: 210mm;
     height: 297mm;
