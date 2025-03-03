@@ -1,11 +1,19 @@
 body {
     font-family: 'Roboto', sans-serif;
-
     background-color: azure;
+    font-size: 12px;
 }
 
 hr {
-    border-top: 2px solid #5c5b5b;
+    border-top: 2px solid #9e9e9e;
+    margin: 10px 0 10px 0;
+}
+
+a {
+    display: inline-block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: inherit;
 }
 
 .page {
@@ -13,7 +21,6 @@ hr {
     height: 297mm;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #000;
     box-sizing: border-box;
 }
 
@@ -38,10 +45,6 @@ hr {
     font-size: 14px;
 }
 
-.header-address {
-    font-size: 12px;
-}
-
 .content {
     display: flex;
     width: 100%;
@@ -52,24 +55,37 @@ hr {
 
 .content-left {
     width: 60%;
-    border-right:  2px solid #5c5b5b;
+    border-right:  2px solid #9e9e9e;
     padding-right: 10px;
 }
 
-.contacts h3 {
-    font-size: 16px;
-    margin: 0px;
-    color: black;
+.right-key {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
+.dates {
+    margin-left: auto;
+}
+
 
 .content-right {
     width: 40%;
     padding-left: 10px;
 }
 
-.experience h3 {
+.employment p {
+    margin: 5px 0;
+}
+
+.key {
+    margin-bottom: 20px;
+}
+
+.key h3 {
     font-size: 16px;
-    margin: 0px;
+    margin: 0;
     color: black;
 }
 
