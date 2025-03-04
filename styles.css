@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: azure;
     font-size: 12px;
+    color: #363636;
 }
 
 hr {
@@ -11,7 +12,6 @@ hr {
 
 a {
     display: inline-block;
-    margin-bottom: 5px;
     text-decoration: none;
     color: inherit;
 }
@@ -30,30 +30,40 @@ a {
 
 .header {
     width: 70%;
-    margin-bottom: 10px;
-
     font-weight: bold;
 }
 
 .header h1 {
-    font-size: 28px;
+    font-size: 36px;
     margin: 0 auto;
     color: black;
 }
 
-.header-position, .header-address {
-    color: dimgrey;
+.header .header-position, .contacts {
+    margin-bottom: 5px;
+}
+
+.summary {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contacts {
+    display: inline-flex;
+}
+
+.contacts div, span {
+    margin-right: 5px;
 }
 
 .header-position {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .content {
     display: flex;
     width: 100%;
-
-    font-size: 12px;
     color: #363636;
 }
 
